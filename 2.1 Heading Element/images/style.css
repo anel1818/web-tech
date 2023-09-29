@@ -1,0 +1,34 @@
+body {
+    background-color: #94cc94;
+    font-family: 'Copperplate Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800x;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.movie {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover; 
+}
+
+h1 {
+    text-align: center;
+}
