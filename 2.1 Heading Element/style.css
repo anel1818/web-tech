@@ -1,5 +1,5 @@
 body {
-    background-color: #94cc94;
+    background-color: #ffffff;
     font-family: 'Copperplate Gothic', sans-serif;
     margin: 0;
     padding: 0;
@@ -31,4 +31,8 @@ body {
 
 h1 {
     text-align: center;
+}
+
+#relative {
+    position: relative;    
 }
